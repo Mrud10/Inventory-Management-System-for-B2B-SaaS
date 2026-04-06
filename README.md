@@ -11,8 +11,7 @@ stockflow-backend-case-study/
 │ ├── part1_debugging/ # Code review, issues, and fixes
   ├── part2_database/ # Schema design and explanations
   ├── part3_api/ # Low-stock alerts API implementation
-  ├── diagrams/ # ER diagrams
-  ├── requirements.txt 
+  ├── diagrams/ # ER diagram
   └── README.md
 
 
@@ -48,7 +47,6 @@ How to Run
 git clone <your-repo-link>
 cd stockflow-backend-case-study
 2. Install dependencies
-pip install -r requirements.txt
 3. Run the application
 python part3_api/app.py
 
