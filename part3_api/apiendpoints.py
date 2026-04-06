@@ -54,7 +54,7 @@ def low_stock(company_id):
             if avg != 0:
                 days_left = int(stock / avg)
 
-            # supplier info (might be null idk)
+            # supplier info 
             sup = p.supplier
             if sup is None:
                 continue
