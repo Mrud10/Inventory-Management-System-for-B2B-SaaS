@@ -34,14 +34,14 @@ Stock already above threshold
 Not included in alerts
 
 
-Assumptions (base on given problem)
+Assumptions 
 
-Since full schema was not provided, I assumed the following:
+Since full schema was not provided, I assumed the following
 
 Each product belongs to a company
 Each product has a product_type which contains the low stock threshold
 Inventory is stored per warehouse (so same product can exist in multiple warehouses)
 Sales table stores product_id, quantity and timestamp
 Supplier is linked to product (one supplier per product assumed)
-“Recent sales” = last 30 days (this is kinda arbitrary but seemed reasonable)
+“Recent sales” = last 30 days 
 
